@@ -17,6 +17,7 @@ export default async function TopMenu() {
                     Sign-In
                 </Link>
             )}
+            <TopMenuItem title='My Booking' pageRef='/mybooking' />
             <div className="flex flex-row-reverse ml-auto items-center gap-6">
                 <Link href="/">
                     <div className="h-[40px] w-auto hover:opacity-80 transition-opacity flex items-center">

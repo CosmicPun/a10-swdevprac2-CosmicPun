@@ -37,8 +37,8 @@ export default function BookingPage() {
       <h1 className="text-2xl font-bold mb-4">Book a Venue</h1>
       
       <div className="flex flex-col gap-4 w-full max-w-sm">
-        <TextField id="Name-Lastname" label="Name - Lastname" variant="outlined" value={nameLastname} onChange={(e) => setNameLastname(e.target.value)} />
-        <TextField id="Contact-Number" label="Contact Number" variant="outlined" value={tel} onChange={(e) => setTel(e.target.value)} />
+        <TextField id="Name-Lastname" name="Name-Lastname" label="Name - Lastname" variant="outlined" value={nameLastname} onChange={(e) => setNameLastname(e.target.value)} />
+        <TextField id="Contact-Number" name="Contact-Number" label="Contact Number" variant="outlined" value={tel} onChange={(e) => setTel(e.target.value)} />
         
         <FormControl fullWidth>
           <InputLabel id="venue-label">Venue</InputLabel>

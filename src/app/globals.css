@@ -20,8 +20,8 @@ body {
 
 body {
   margin: 0;
-  color: var(--foreground);
-  background: var(--background);
+  color: black;
+  background: white;
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -1,6 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-// Use your existing BookingItem interface
 export interface BookState {
   bookItems: BookingItem[];
 }
